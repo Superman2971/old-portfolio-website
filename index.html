@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Portfolio site of Ian Goldfarb">
+	<meta name="author"      content="Ian Goldfarb">
+	
+	<title>Ian Goldfarb - Portfolio</title>
+
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
+	
+	<!-- Bootstrap itself -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="assets/css/portfolio.css">
+
+	<!-- Fonts -->
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Wire+One" rel="stylesheet">
+
+	<!-- Load js libs only when the page is loaded. -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="assets/js/modernizr.custom.72241.js"></script>
+	<!-- Custom template scripts -->
+	<script src="assets/js/portfolio.js"></script>
+
+</head>
+
+<!-- use "theme-invert" class on bright backgrounds, also try "text-shadows" class -->
+<body class="theme-invert">
+<!-- flying airplane -->
+<img id="airplane" style="position: absolute; top: 100px; left: -263px;" src="assets/images/airplane.png" alt="airplane flying across screen"\>
+
+<nav class="mainmenu">
+	<div class="container">
+		<div class="dropdown">
+			<button type="button" class="navbar-toggle" data-toggle="dropdown"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+			<!-- <a data-toggle="dropdown" href="#">Dropdown trigger</a> -->
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+				<li><a href="#head" class="active">Welcome</a></li>
+				<li><a href="#about">About me</a></li>
+				<li><a href="#projects">Fun Projects</a></li>
+				<li><a href="#contact">Get in touch</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+<!-- Main (Home) section -->
+<section class="section" id="head">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center">	
+
+				<!-- Site Title, your name, HELLO msg, etc. -->
+				<h1 class="title">Ian Goldfarb</h1>
+				<h2 class="subtitle" id="about_me">Developer</h2>
+
+				<!-- Short introductory (optional) -->
+				<h3 class="tagline">
+					Marketer, Manager, Strategist, Creative, Developer
+				</h3>
+				
+			</div> <!-- /col -->
+		</div> <!-- /row -->
+	
+	</div>
+</section>
+
+<!-- Second (About) section -->
+<section class="section" id="about">
+	<div class="container">
+	
+		<h2 class="text-center title">About me</h2>
+		<div class="row thumbnail">
+			<div class="col-sm-4 col-sm-offset-2">    
+				<h5><strong>Work Experience<br></strong></h5>
+				<p>Driven to create cutting edge interactive applications. I've been working professionally in digital development for over 6 years and I'm always ready to tackle a new challenge. From Project Management to Full Stack Development. Excited to learn new technologies and integrate them into my work. Bring on the next challenger!</p>
+			</div>
+			<div class="col-sm-4">
+				<h5><strong>Currently Product Manager and Software Engineer at SupplyHub<br></strong></h5>    
+				<p>Working as the lead for our front-end development and simultaneously wearing the hat of Product Manager. Using a HAND stack: AngularJS front-end framework with a Node, Hapi, Neo4J backend. Angular Material has been an integral part of the UI development and we have been using standard practices to keep code clean and unit test coverage above 90%.</p>      
+				<h5><strong>For More Information<br></strong></h5>    
+				<p><a href="https://github.com/Superman2971">Github</a> / <a href="https://www.linkedin.com/profile/view?id=15393369&trk=nav_responsive_tab_profile_pic">LinkedIn</a> / <a href="https://www.facebook.com/ian.goldfarb">Facebook</a></p>  
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Third (Works) section -->
+<section class="section" id="projects">
+	<div class="container">
+	
+		<h2 class="text-center title">Fun Projects</h2>
+		<p class="lead text-center">
+			A few of the fun projects I've been working on.<br>
+			Source files are available on my <a href="#">Github</a>
+		</p>
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-2">
+				<div class="thumbnail fixed-height">
+					<img src="assets/images/spaceleap.png" alt="SpaceLeap screenshot">
+					<div class="caption">
+						<h3>LeapSpace</h3>
+						<h6>Requires a Leap Motion</h6>
+						<p>Combination of HTML5 Canvas game developed fully in javascript and Leap Motion. The game is fully functional with the movement of your hand.</p>
+						<p><a href="https://github.com/Superman2971/LeapMotion_Game" class="btn btn-primary" role="button">Github</a> <a href="http://spaceleap.herokuapp.com/" class="btn btn-default" role="button">Live Site</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail fixed-height">
+					<img src="assets/images/carsd3.png" alt="Dcars3 screenshot">
+					<div class="caption">
+						<h3>CarsD3</h3>
+						<p>First adventure into D3 and deep data queries. Used historical car information to create data visualization pulling from both csv and json.</p>
+						<p><a href="https://github.com/Superman2971/CarsD3" class="btn btn-primary" role="button">Github</a> <a href="http://dcar3.herokuapp.com/" class="btn btn-default" role="button">Live Site</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-sm-offset-2">
+				<div class="thumbnail fixed-height">
+					<img src="assets/images/advocates.png" alt="ADvocates screenshot">
+					<div class="caption">
+						<h3>ADvocates</h3>
+						<p>A web-based application that connects local businesses with consumers through social media. Twitter users can earn money by advertising for businesses.</p>
+						<p><a href="https://github.com/Superman2971/ADvocates" class="btn btn-primary" role="button">Github</a> <a href="http://ad-vocates.herokuapp.com/" class="btn btn-default" role="button">Live Site</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail fixed-height">
+					<img src="assets/images/nelsonator.png" alt="Nelsonator screenshot">
+					<div class="caption">
+						<h3>Nelsonator Bookmarklet</h3>
+						<p>Created in the spirit of The Simpsons. This bookmarklet will change all of the links on a page to play a sound clip and redirect to The Simpsons website.</p>
+						<p><a href="https://github.com/Superman2971/Nesonator_Bookmarklet" class="btn btn-primary" role="button">Github</a> <a href="http://nelsonator.bitballoon.com/" class="btn btn-default" role="button">Live Site</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-sm-offset-2">
+				<div class="thumbnail fixed-height">
+					<img src="assets/images/w2et.png" alt="What 2 Eat Tonight screenshot">
+					<div class="caption">
+						<h3>What 2 Eat Tonight</h3>
+						<p>The visual decision for the craving you can't describe. Designed to easily select the kind of food you are hungry for at those times when you just can't decide. Visuals are much more stimulating when it comes to food selection.</p>
+						<p><a href="https://github.com/Superman2971/What_2_Eat_Tonight" class="btn btn-primary" role="button">Github</a> <a href="http://w2et.herokuapp.com/" class="btn btn-default" role="button">Live Site</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail fixed-height">
+					<img src="assets/images/tictactoe_ultimate.png" alt="Ultimate Tic-Tac-Toe screenshot">
+					<div class="caption">
+						<h3>Ultimate Tic-Tac-Toe</h3>
+						<p>Html, CSS, Javascript, AngularJS framework, and Firebase backend. Update: Firebase introduction of AngularFire 0.8 has broken the connection so this has been temporarily removed.</p>
+						<p><a href="https://github.com/Superman2971/Ultimate-TicTacToe" class="btn btn-primary" role="button">Github</a> <a href="http://ultimate-ttt.bitballoon.com/" class="btn btn-default" role="button">Live Site</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-sm-offset-2">
+				<div class="thumbnail fixed-height">
+					<img src="assets/images/sms.png" alt="SMS with Twillio screenshot">
+					<div class="caption">
+						<h3>SMS with Twillio</h3>
+						<p>Integrated the Twillio API. Created Ruby program for custom randomized text messages. Designed a CRON to run the program systematically during the day. I now receive daily reminders to eat healthy.</p>
+						<p><a href="https://github.com/Superman2971/SMS" class="btn btn-primary" role="button">Github</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail fixed-height">
+					<img src="assets/images/instangular.png" alt="InstAngular screenshot">
+					<div class="caption">
+						<h3>InstAngular - LIVE SITE BROKEN</h3>
+						<p>Uses Instagram API to collect images. Angular ngResource and front-end.</p>
+						<p><a href="https://github.com/Superman2971/InstAngular" class="btn btn-primary" role="button">Github</a> <a href="http://insta-angular.herokuapp.com/" class="btn btn-default" role="button">Live Site</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-sm-offset-2">
+				<div class="thumbnail fixed-height">
+					<img src="assets/images/sounds_button.png" alt="Sounds Button screenshot">
+					<div class="caption">
+						<h3>Sounds Button</h3>
+						<p>Created within an hour and developed to be easily modular for additional sound clips.</p>
+						<p><a href="https://github.com/Superman2971/Sounds-Button" class="btn btn-primary" role="button">Github</a> <a href="http://sounds-button.bitballoon.com/" class="btn btn-default" role="button">Live Site</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail fixed-height">
+					<img src="assets/images/todo_app.png" alt="To Do App screenshot">
+					<div class="caption">
+						<h3>To Do App</h3>
+						<p>My first CRUD app, built using AngularJS and Firebase. It was fun, quick, and other than the trouble of trying to work with Firebase it was relatively easy.</p>
+						<p><a href="https://github.com/Superman2971/To-Do-List" class="btn btn-primary" role="button">Github</a> <a href="http://angular-to-do.bitballoon.com/" class="btn btn-default" role="button">Live Site</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-sm-offset-2">
+				<div class="thumbnail fixed-height">
+					<img src="assets/images/rockpaperscissors.png" alt="Rock Paper Scissors screenshot">
+					<div class="caption">
+						<h3>Rock Paper Scissors</h3>
+						<p>The App uses HTML, CSS, and Javascript. Built in logic to detect winners, keep score, and animate accordingly.</p>
+						<p><a href="https://github.com/Superman2971/RockPaperScissors" class="btn btn-primary" role="button">Github</a> <a href="http://rock-paper-scissors.bitballoon.com/" class="btn btn-default" role="button">Live Site</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="thumbnail fixed-height">
+					<img src="assets/images/cowsay.png" alt="Cowsay screenshot">
+					<div class="caption">
+						<h3>Cowsay</h3>
+						<p>The Cow Gods have spoken. Send them your questions and you will receive a response.</p>
+						<p><a href="https://github.com/Superman2971/CowSay" class="btn btn-primary" role="button">Github</a> <a href="http://cowsay.bitballoon.com/" class="btn btn-default" role="button">Live Site</a></p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+</section>
+
+<!-- Fourth (Contact) section -->
+<section class="section" id="contact">
+	<div class="container">
+	
+		<h2 class="text-center title">Get in touch</h2>
+
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2 text-center">
+				<p class="lead">Please reach out so we can discuss how to best work with each other.</p>
+				<p>Feel free to email me, or drop me a line through Linkedin!</p>
+				<p><b><a href="mailto:goldfarb.ian@gmail.com">goldfarb.ian@gmail.com</a></b><br><br></p>
+				<ul class="list-inline list-social">
+					<li><a href="https://github.com/Superman2971" class="btn btn-link"><i class="fa fa-github fa-fw"></i> Github</a></li>
+					<li><a href="https://www.linkedin.com/profile/view?id=15393369&trk=nav_responsive_tab_profile_pic" class="btn btn-link"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+</body>
+</html>
